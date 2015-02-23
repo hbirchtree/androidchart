@@ -33,7 +33,7 @@ Item {
 
     TextField {
         id: textField1
-        text: "http://www.nyaa.se/?page=rss&term=horrible+sword+art+online+ii+720p"
+        text: ""
         anchors.top: comboBox1.top
         anchors.topMargin: 0
         anchors.left: comboBox1.right
@@ -47,7 +47,7 @@ Item {
 
     TextField {
         id: textField2
-        text: "\\[[A-Za-z]+\\\\] ([A-Za-z\\\\d\\\\W\\\\w]+) \\\\["
+        text: "\\[[A-Za-z]+\\] ([A-Za-z\\d\\W\\w]+) \\["
         anchors.top: comboBox1.top
         anchors.topMargin: 0
         anchors.left: parent.horizontalCenter
